@@ -12,13 +12,13 @@ h1 {font-family: futura;
 }
 
 h2 {font-family: futura;
-	font-size: 22px;
-	font-weight: 45;
+	font-size: 25px;
+	font-weight: 450;
 	color: #7F7F75;
 }	
 
 h3 {font-family: futura;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 20;
 	color: #916953;
 	letter-spacing: .1rem;
@@ -30,13 +30,14 @@ h3 {font-family: futura;
 
 table {font-family: futura;
    font-weight: 10;
-   font-size: 12px;
+   font-size: 19px;
    text-align: justify;
    margin: auto;
    color: #B39785;
    line-height: 1.5;
    border: black;
    margin-bottom: 15px;
+   border-spacing: 15px;
 }
 
 td
@@ -47,7 +48,7 @@ color: #B39785;
 
 #title_board {
 	text-align: center;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 10px;
 	color: #B39785;
 	margin-bottom: 30px;
@@ -55,13 +56,13 @@ color: #B39785;
 
 #title_thing {
 	text-align: center;
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: 10;
 	color: #545451;
 }
 
 .container {
-  width: 600px;   /* This sets the width */
+  width: 750px;   /* This sets the width */
   margin: 0 auto;
    /* This automatically sets left/right margins */
 }
@@ -88,12 +89,20 @@ i {
 
 }
 
+.rayan {
+	width: 100%;
+	height: 110px;
+	background-image: url("images/peinture.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #bio {
   color: #535353;
   font-family: futura;
   text-decoration-line: none;
   font-weight: 10;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -102,7 +111,19 @@ i {
   font-family: futura;
   text-decoration-line: none;
   font-weight: 10;
-  font-size: 10px;
+  font-size: 15px;
   text-align: justify;
 }
+
+#titulo_um {
+color: #F8F6F3;
+background:transparent;
+padding-top: 34px;
+}
+
+#titulo_dois {
+color: #E4DCD1;
+background:transparent;
+}
+
 
